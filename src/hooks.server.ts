@@ -1,7 +1,7 @@
 import { SvelteKitAuth } from "@auth/sveltekit"
 import Google from '@auth/core/providers/google';
 import { GOOGLE_ID, GOOGLE_SECRET } from "$env/static/private";
-import { authorizedEmail } from "./db";
+import { authorizedEmailFilter } from "$lib";
 
 export const handle = SvelteKitAuth({
   providers: [
@@ -10,7 +10,7 @@ export const handle = SvelteKitAuth({
   callbacks: {
     async signIn({ profile }) {
        // Checking the signed in profile against whitelisted emails 
-       const isAuthorized = authorizedEmail.filter(email => email == profile?.email)[0];
+       const isAuthorized = authorizedEmailFilter(profile?.email as string);
        //  if available loggin else reject loggin
     if (isAuthorized) {
         return true
