@@ -41,7 +41,9 @@ db file in the src folder contains the necessary javascript files with arrays of
 ### Static files
 Images will be found in the static folder.
 
-###
+### Svelte deployment to github pages
+We will have to follow this tutorial to deploy the sveltekit app to github pages
+[Sveltekit deployment to github pages]https://www.devsamples.com/javascript/svelte/deploy-svelte-app-gh-pages
 
 
 
