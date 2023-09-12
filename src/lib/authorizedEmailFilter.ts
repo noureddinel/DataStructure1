@@ -1,8 +1,7 @@
-import { authorizedEmail } from "../db"
 
 
-const authorizedEmailFilter = (userEmail: string): string => {
-    const email = authorizedEmail.filter(email => email == userEmail)[0];
+const authorizedEmailFilter = (userEmail: string, emailsList: string[]): string => {
+    const email = emailsList.filter(email => email == userEmail)[0];
     return email;
 }
 

@@ -8,7 +8,7 @@
 
 <Section id="#coursework">
     <Title>Course Assessment</Title>
-    <ul class="mt-6 space-y-4 text-gray-500 list-disc list-inside dark:text-gray-400">
+    <ul class="mt-6 space-y-4 list-disc list-inside dark:text-gray-400">
         <li>
             The participation of students in the course will involve five forms of activities:
             <ol class="pl-5 mt-2 space-y-1 list-decimal list-inside">
