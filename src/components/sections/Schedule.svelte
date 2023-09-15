@@ -7,11 +7,12 @@
 
 <Section id='#schedule'>
     <Title>Schedule</Title>
-      <div class="mt-6">
+      <div class="mt-6" >
           <Tabs 
-            contentClass="p-4 bg-gray-50 rounded-lg dark:bg-gray-800" 
-            inactiveClasses="p-4 text-gray-500 rounded-t-lg hover:text-gray-600 bg-gray-50 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300 border-t-2 border-l-2 border-r-2"
-            activeClasses="p-4 text-primary-600 bg-gray-200 rounded-t-lg dark:bg-gray-800 dark:text-primary-500"
+            defaultClass='flex overflow-scroll space-x-3'
+            contentClass="p-4 bg-gray-200 dark:bg-gray-800" 
+            inactiveClasses="p-4 text-gray-500 rounded-t-lg hover:text-gray-600 bg-gray-50 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
+            activeClasses="p-4 text-orange-400 bg-gray-200 rounded-t-lg dark:bg-gray-800 dark:text-primary-500 "
             divider={false}
           > 
               {#each schedule as item}

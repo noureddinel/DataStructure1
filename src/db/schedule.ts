@@ -72,26 +72,77 @@ const schedule = [
         courseWork: 'lab sheet 7',
         tutorials: 'tuts 7'
     },
-    // {
-    //     id: 8,
-    //     week: 8,
-    //     date: 'Mar 05, Mar 09',
-    //     topic: 'Pointers, Dynamic memory, Struct, Linked-list & CStrings ',
-    //     topicDownload: 'PDF',
-    //     chapters: '8',
-    //     courseWork: 'lab sheet 5',
-    //     tutorials: 'tuts 5'
-    // },
-    // {
-    //     id: 5,
-    //     week: 5,
-    //     date: 'Mar 05, Mar 09',
-    //     topic: 'Pointers, Dynamic memory, Struct, Linked-list & CStrings ',
-    //     topicDownload: 'PDF',
-    //     chapters: '8',
-    //     courseWork: 'lab sheet 5',
-    //     tutorials: 'tuts 5'
-    // },
+    {
+        id: 8,
+        week: 8,
+        date: 'Mar 05, Mar 09',
+        topic: 'Pointers, Dynamic memory, Struct, Linked-list & CStrings ',
+        topicDownload: 'PDF',
+        chapters: '8',
+        courseWork: 'lab sheet 5',
+        tutorials: 'tuts 5'
+    },
+    {
+        id: 9,
+        week: 9,
+        date: 'Mar 05, Mar 09',
+        topic: 'Pointers, Dynamic memory, Struct, Linked-list & CStrings ',
+        topicDownload: 'PDF',
+        chapters: '8',
+        courseWork: 'lab sheet 5',
+        tutorials: 'tuts 5'
+    },
+    {
+        id: 10,
+        week: 10,
+        date: 'Mar 05, Mar 09',
+        topic: 'Pointers, Dynamic memory, Struct, Linked-list & CStrings ',
+        topicDownload: 'PDF',
+        chapters: '8',
+        courseWork: 'lab sheet 5',
+        tutorials: 'tuts 5'
+    },
+    {
+        id: 11,
+        week: 11,
+        date: 'Mar 05, Mar 09',
+        topic: 'Pointers, Dynamic memory, Struct, Linked-list & CStrings ',
+        topicDownload: 'PDF',
+        chapters: '8',
+        courseWork: 'lab sheet 5',
+        tutorials: 'tuts 5'
+    },
+    {
+        id: 12,
+        week: 12,
+        date: 'Mar 05, Mar 09',
+        topic: 'Pointers, Dynamic memory, Struct, Linked-list & CStrings ',
+        topicDownload: 'PDF',
+        chapters: '8',
+        courseWork: 'lab sheet 5',
+        tutorials: 'tuts 5'
+    },
+    {
+        id: 13,
+        week: 13,
+        date: 'Mar 05, Mar 09',
+        topic: 'Pointers, Dynamic memory, Struct, Linked-list & CStrings ',
+        topicDownload: 'PDF',
+        chapters: '8',
+        courseWork: 'lab sheet 5',
+        tutorials: 'tuts 5'
+    },
+    {
+        id: 14,
+        week: 14,
+        date: 'Mar 05, Mar 09',
+        topic: 'Pointers, Dynamic memory, Struct, Linked-list & CStrings ',
+        topicDownload: 'PDF',
+        chapters: '8',
+        courseWork: 'lab sheet 5',
+        tutorials: 'tuts 5'
+    },
+
 ]
 
 export {schedule}
