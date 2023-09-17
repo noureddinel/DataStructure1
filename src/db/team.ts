@@ -1,13 +1,5 @@
 const team = [
     {
-        id: 1,
-        title: 'Prof',
-        fullName: 'Kamel Boukhalfa',
-        email: 'kamel.boukhalfa@ensia.edu.dz',
-        image: '/Images/Kamel_Boukhalfa.png',
-        hours: 'TBA'
-    },
-    {
         id: 2,
         title: 'Dr',
         fullName: 'Noureddine Lasla',
@@ -33,18 +25,42 @@ const team = [
     },
     {
         id: 5,
-        title: 'Dr',
-        fullName: 'Mourad Lassouaoui',
-        email: 'mourad.lassouaoui@ensia.edu.dz',
-        image: '/Images/LassouaouiMourad.jpeg',
-        hours: 'TBA'
-    },
-    {
-        id: 6,
         title: 'Mrs',
         fullName: 'Asma Aouichat',
         email: 'asma.aouichat@ensia.edu.dz',
         image: '/Images/Asma-Aouichat.jpeg',
+        hours: 'TBA'
+    },
+    {
+        id: 6,
+        title: 'Dr',
+        fullName: 'Saad Fehis',  
+        email: 'saad.fehis@ensia.edu.dz',
+        image: '/Images/saadFehis.jpeg',
+        hours: 'TBA'
+    },
+    {
+        id: 7,
+        title: 'Dr',
+        fullName: 'Yacine Sahraoui',  
+        email: 'yacine.sahraoui@ensia.edu.dz',
+        image: '/Images/yacineSahraoui.jpeg',
+        hours: 'TBA'
+    },
+    {
+        id: 8,
+        title: 'Dr',
+        fullName: 'Farah Ibelaiden',  
+        email: 'farah.ibelaiden@ensia.edu.dz',
+        image: '/Images/farahIbelaiden.jpeg',
+        hours: 'TBA'
+    },
+    {
+        id: 9,
+        title: 'Dr',
+        fullName: 'Aicha Boutorh',  
+        email: 'aicha.boutorh@ensia.edu.dz',
+        image: '/Images/aichaBoutorh.jpeg',
         hours: 'TBA'
     },
 ]

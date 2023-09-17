@@ -9,21 +9,25 @@
 <!-- Section -->
 <Section>
     <!-- Section Title -->
-    <Title>Introduction to Programming with C++ (3rd Term)</Title>
+    <Title>Data Structure and Algorithms 1 (DSA1)</Title>
     <!-- Section subtitle -->
     <SubTitle>About the Course</SubTitle>
     <!-- About section text -->
-    <Paragraph>C++ is a high-level programming language that supports various computer 
-        programming models such as object-oriented programming and generic programming. 
-        It was created by <a class="text-blue-600" href="https://fr.wikipedia.org/wiki/Bjarne_Stroustrup" target="_blank">Bjarne Stroustrup</a> 
-        and, “Its main purpose was to make writing good programs easier and more pleasant 
-        for the programmer.”
+    <Paragraph>The foundations of software development are data 
+    structures and algorithms because they are crucial for developing a developer's 
+    problem-solving skills. The course objective is to provide the fundamental 
+    concepts of data structures and the principles of their implementation, and to 
+    show how to implement them wisely in an algorithm, facilitating a seamless 
+    transition to a high-level programming language.
     </Paragraph>
     <Paragraph>
-        By learning C++, you can create applications that will run on a wide variety of 
-        hardware platforms such as personal computers running Windows, Linux, UNIX, 
-        and Mac OS X, as well as small form factor hardware such as IoT devices like 
-        the Raspberry PI and Arduino–based boards.
+       This course introduces students to algorithmic thinking, programming concepts, 
+       and problem-solving techniques using the C++ programming language. 
+       Students will learn to design and implement simple algorithms, 
+       work with data structures, and develop modular and efficient code. 
+       The course includes lectures, tutorials, and lab sessions to provide a 
+       comprehensive learning experience.
+
     </Paragraph>
     <Paragraph>
         C++ is <a class="text-blue-600" href="https://www.tiobe.com/tiobe-index/" target="_blank">TIOBE's</a> programming language of the year 2022. 

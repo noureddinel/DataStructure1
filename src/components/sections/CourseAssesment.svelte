@@ -54,26 +54,25 @@
         </table>
     </div>
 
-    <h3 id="#exams" class="text-xl font-semibold mt-6">Exams (75%)</h3>
-    <Paragraph>There will be two in-class exams – midterm and final – which together will count for 75% of your final score.</Paragraph>
+    <h3 id="#exams" class="text-xl font-semibold mt-6">Exams (80%)</h3>
+    <Paragraph>There will be two in-class exams – midterm and final – which together will count for 80% of your final score.</Paragraph>
     
     <ul class="max-w-md py-2 space-y-1 list-disc list-inside dark:text-gray-400">
         <li>
-            The midterm is worth 25%
+            The midterm is worth 20%
         </li>
         <li>
-            The final is worth 50%
+            The final is worth 60%
         </li>
     </ul>
 
     <Paragraph>No electronic device is not allowed during the exam.</Paragraph>
 
-    <h3 id="#puzzles" class="text-xl font-semibold mt-6">Puzzles solving (Extra points)</h3>
-    <Paragraph>There will be 3 puzzles that will test you on problem analysis and solving skills. These assignments will altogether carry extra points (01 point each). The main goal is to rise your algorithmic skills.</Paragraph>
+    <h3 id="#tests" class="text-xl font-semibold mt-6">Testes (14%)</h3>
+    <Paragraph>There will be 2 Tests (tutorial and lab tests), which together will count for 14% of your final score. These Tests are meant to test your understanding and preparation for the concepts covered throughout the lectures, tutorials and labs.</Paragraph>
 
-    <h3 id="#tests" class="text-xl font-semibold mt-6">Testes (20%)</h3>
-    <Paragraph>There will be 3 Tests, which together will count for 20% of your final score. These Tests are meant to test your understanding and preparation for the concepts covered throughout the course and labs.</Paragraph>
-
-    <h3 id="#participation" class="text-xl font-semibold mt-6">Participation & Attendance (5%)</h3>
-    <Paragraph>Your attendance of labs as well as your participation in discussions during presentations will count for 5% of your final score.</Paragraph>
+    <h3 id="#participation" class="text-xl font-semibold mt-6">Quizzes (3%)</h3>
+    <Paragraph>There will be one online Quizze for each chapter.</Paragraph>
+    <h3 id="#participation" class="text-xl font-semibold mt-6">Participation & Attendance (3%)</h3>
+    <Paragraph>Your attendance of labs as well as your participation in discussions during presentations will count for 3% of your final score.</Paragraph>
 </Section>

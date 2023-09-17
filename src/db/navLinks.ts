@@ -21,19 +21,20 @@ const navLinks = [
         sublinks: [
             {
                 id: 1,
-                title: '2x Exams (75%)',
+                title: '2x Exams (80%)',
                 link: '#exams'
             },
             {
-                id: 2,
-                title: 'Puzzles solving',
-                link: '#puzzles'
-            },
-            {
                 id: 1,
-                title: '3x Tests (20%)',
+                title: '2x Tests (14%)',
                 link: '#tests'
             },
+            {
+                id: 2,
+                title: 'Quizzes (3%)',
+                link: '#puzzles'
+            },
+            
             {
                 id: 1,
                 title: 'Participation & Attendance',
