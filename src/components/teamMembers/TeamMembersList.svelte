@@ -21,7 +21,7 @@
 
 <div class=" my-12">
     {#each teamMembers as member (member.id)}   
-        <div  in:scale animate:flip={{ duration: 500}}>
+        <div  in:fade animate:flip={{ duration: 500}}>
             <TeamMemberCard 
             image={member.image}
                 fullName={member.fullName}
