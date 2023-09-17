@@ -7,9 +7,9 @@
 
 <Section id='#schedule'>
     <Title>Schedule</Title>
-      <div class="mt-6" >
+      <div class="mt-6">
           <Tabs 
-            defaultClass='flex overflow-scroll space-x-3'
+            defaultClass='flex space-x-3 overflow-scroll scrollbar scrollbar-none'
             contentClass="p-4 bg-gray-200 dark:bg-gray-800" 
             inactiveClasses="p-4 text-gray-500 rounded-t-lg hover:text-gray-600 bg-gray-50 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
             activeClasses="p-4 text-orange-400 bg-gray-200 rounded-t-lg dark:bg-gray-800 dark:text-primary-500 "
@@ -76,3 +76,11 @@
           </Tabs>
         </div>
 </Section>
+
+
+<style>
+.hide-scrollbar{
+  height: 0;
+  background-color: transparent;
+}
+</style>
