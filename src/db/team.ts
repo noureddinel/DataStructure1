@@ -4,24 +4,27 @@ const team = [
         title: 'Dr',
         fullName: 'Noureddine Lasla',
         email: 'noureddine.lasla@ensia.edu.dz',
-        image: '/Images/Noureddine_Lasla.png',
-        hours: 'Thursday 4:10pm – 6:10pm'
+        image: '/Images/NoureddineLasla.png',
+        gender: 'male',
+        hours: 'TBA'
     },
     {
         id: 3,
         title: 'Dr',
         fullName: 'Fouzia Anguel',
         email: 'fouzia.anguel@ensia.edu.dz',
-        image: '/Images/Fouzia_Anguel.png',
-        hours: 'Tuesday 2:00pm - 4:00pm'
+        image: '/Images/FouziaAnguel.png',
+        gender: 'female',
+        hours: 'TBA'
     },
     {
         id: 4,
         title: 'Dr',
         fullName: 'Sami Belkacem',
         email: 'sami.belkacem@ensia.edu.dz',
-        image: '/Images/Sami_Belkacem.png',
-        hours: 'Tuesday 2:00pm - 4:00pm'
+        image: '/Images/SamiBelkacem.png',
+        gender: 'male',
+        hours: 'TBA'
     },
     {
         id: 5,
@@ -29,6 +32,7 @@ const team = [
         fullName: 'Asma Aouichat',
         email: 'asma.aouichat@ensia.edu.dz',
         image: '/Images/Asma-Aouichat.jpeg',
+        gender: 'female',
         hours: 'TBA'
     },
     {
@@ -36,7 +40,8 @@ const team = [
         title: 'Dr',
         fullName: 'Saad Fehis',  
         email: 'saad.fehis@ensia.edu.dz',
-        image: '/Images/saadFehis.jpeg',
+        gender: 'male',
+        image: '',
         hours: 'TBA'
     },
     {
@@ -44,7 +49,8 @@ const team = [
         title: 'Dr',
         fullName: 'Yacine Sahraoui',  
         email: 'yacine.sahraoui@ensia.edu.dz',
-        image: '/Images/yacineSahraoui.jpeg',
+        gender: 'male',
+        image: '',
         hours: 'TBA'
     },
     {
@@ -52,7 +58,8 @@ const team = [
         title: 'Dr',
         fullName: 'Farah Ibelaiden',  
         email: 'farah.ibelaiden@ensia.edu.dz',
-        image: '/Images/farahIbelaiden.jpeg',
+        gender: 'female',
+        image: '',
         hours: 'TBA'
     },
     {
@@ -60,7 +67,8 @@ const team = [
         title: 'Dr',
         fullName: 'Aicha Boutorh',  
         email: 'aicha.boutorh@ensia.edu.dz',
-        image: '/Images/aichaBoutorh.jpeg',
+        gender: 'female',
+        image: '',
         hours: 'TBA'
     },
 ]

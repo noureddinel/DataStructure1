@@ -8,10 +8,46 @@
 
 <!-- Section -->
 <Section>
-    <!-- Section Title -->
-    <Title>Data Structure and Algorithms 1 (DSA1)</Title>
+    <section 
+        class="
+            rounded-lg 
+            flex 
+            justify-center 
+            items-center 
+            bg-center 
+            bg-cover 
+            bg-no-repeat 
+            bg-[url('https://images.unsplash.com/photo-1677442135703-1787eea5ce01?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2532&q=80')] 
+            bg-gray-700 
+            bg-blend-multiply 
+            h-[340px]
+            p-8
+            md:p-6
+            text-center
+        "
+    >
+        <!-- Section Title -->
+        <h1 
+            class="
+                text-white 
+                font-semibold 
+                text-xl 
+                md:text-4xl 
+                border-4 
+                p-8
+                border-orange-400
+                w-fit
+                rounded-lg
+            "
+        >
+            Data Structure and Algorithms 1 (DSA1)
+        </h1>
+    </section>
+    
     <!-- Section subtitle -->
-    <SubTitle>About the Course</SubTitle>
+    <div class="mt-6">
+        <Title>About the Course</Title>
+    </div>
     <!-- About section text -->
     <Paragraph>The foundations of software development are data 
     structures and algorithms because they are crucial for developing a developer's 
@@ -48,7 +84,9 @@
 
 
     <!-- Lectures -->
-    <h3 class="text-md my-6 font-semibold">Lectures</h3>
+    <div class="my-6 ">
+        <Title>Lectures</Title>
+    </div>
     <div class="relative overflow-x-auto">
         <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
             <thead class="text-xs text-white uppercase bg-orange-400 dark:bg-gray-700 dark:text-gray-400">

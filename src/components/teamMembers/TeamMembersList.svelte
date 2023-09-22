@@ -22,27 +22,18 @@
 </script>
 
 
-<div class=" my-12">
+<div class=" my-12 grid md:col-span-2 md:grid-cols-2">
     <!-- Added the teamMember id as a key, this will make every item in the dom unique -->
-    {#each teamMembers as member (member.id)}   
+    {#each team as member (member.id)}   
         <div in:fade animate:flip={{ duration: 500}}>
             <TeamMemberCard 
                 image={member.image}
                 fullName={member.fullName}
                 email={member.email}
                 hours={member.hours}
+                gender={member.gender}
             />    
         </div>
     {/each}
-    <div class="flex justify-center items-center my-6">
-        <Button
-            outline
-            size="sm"
-            class="hover:bg-orange-400 border-orange-400"
-            on:click={handleShowMore}
-        >
-            <!-- Button will show content depending on the length on the team array -->
-            {teamMembers.length == team.length? "Hide back" : 'Show more'}
-        </Button>
-    </div>
+ 
 </div>  
