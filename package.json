@@ -36,6 +36,8 @@
 	"dependencies": {
 		"@auth/core": "^0.14.0",
 		"@auth/sveltekit": "^0.3.7",
+		"@fontsource/open-sans": "^5.0.12",
+		"@fontsource/oswald": "^5.0.12",
 		"@popperjs/core": "^2.11.8",
 		"flowbite": "^1.8.1",
 		"flowbite-svelte": "^0.44.15",

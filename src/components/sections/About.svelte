@@ -4,6 +4,7 @@
 	import Paragraph from "../typography/Paragraph.svelte";
 	import SubTitle from "../typography/SubTitle.svelte";
 	import Title from "../typography/Title.svelte";
+    import '@fontsource/oswald';
 </script>
 
 <!-- Section -->
@@ -18,7 +19,7 @@
             bg-cover 
             bg-no-repeat 
             bg-[url('https://www.itprotoday.com/sites/itprotoday.com/files/styles/article_featured_retina/public/programming.jpg?itok=6bRkryO5')] 
-            bg-gray-200 
+            bg-gray-400 
             bg-blend-multiply 
             h-[300px]
             p-8
@@ -27,21 +28,36 @@
         "
     >
         <!-- Section Title -->
-        <h1 
-            class="
-                text-white 
-                font-Oswald
-                text-xl
-                md:text-4xl 
-                border-6 
-                p-8
-                border-yellow-400
-                w-fit
-                rounded-lg
-            "
-        >
-            DATA STRUCTURE & ALGORITHMS 1 (DSA1)
-        </h1>
+        <div class="">
+            <h1 
+                class="
+                    border-b-8 
+                  border-orange-400 
+                    text-xl 
+                    md:text-5xl 
+                  text-white 
+                    pb-4
+                    course-title
+                "
+            >
+                DSA1
+            </h1>     
+            <h1 
+                class="
+                    text-white 
+                    text-xl
+                    md:text-5xl 
+                    font-bold
+                    border-yellow-400
+                    w-fit
+                    rounded-lg
+                    pt-2
+                    course-title
+                "
+            >
+                DATA STRUCTURE & ALGORITHMS 1 
+            </h1>
+        </div>
     </section>
     
     <!-- Section subtitle -->
@@ -133,3 +149,9 @@
     </div>
 </Section>
 
+
+<style>
+    .course-title {
+        font-family: "Oswald";
+    }
+</style>
