@@ -17,10 +17,10 @@
             bg-center 
             bg-cover 
             bg-no-repeat 
-            bg-[url('https://images.unsplash.com/photo-1677442135703-1787eea5ce01?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2532&q=80')] 
-            bg-gray-700 
+            bg-[url('https://www.itprotoday.com/sites/itprotoday.com/files/styles/article_featured_retina/public/programming.jpg?itok=6bRkryO5')] 
+            bg-gray-200 
             bg-blend-multiply 
-            h-[340px]
+            h-[300px]
             p-8
             md:p-6
             text-center
@@ -30,17 +30,17 @@
         <h1 
             class="
                 text-white 
-                font-semibold 
-                text-xl 
+                font-Oswald
+                text-xl
                 md:text-4xl 
-                border-4 
+                border-6 
                 p-8
-                border-orange-400
+                border-yellow-400
                 w-fit
                 rounded-lg
             "
         >
-            Data Structure and Algorithms 1 (DSA1)
+            DATA STRUCTURE & ALGORITHMS 1 (DSA1)
         </h1>
     </section>
     
