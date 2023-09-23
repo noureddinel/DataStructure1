@@ -32,6 +32,7 @@
                 email={member.email}
                 hours={member.hours}
                 gender={member.gender}
+                biography={member.biography}
             />    
         </div>
     {/each}

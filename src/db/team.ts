@@ -5,6 +5,7 @@ const team = [
         fullName: 'Noureddine Lasla',
         email: 'noureddine.lasla@ensia.edu.dz',
         image: '/Images/NoureddineLasla.png',
+        biography: 'https://www.ensia.edu.dz/biography/noureddine.lasla/',
         gender: 'male',
         hours: 'TBA'
     },
@@ -14,6 +15,7 @@ const team = [
         fullName: 'Fouzia Anguel',
         email: 'fouzia.anguel@ensia.edu.dz',
         image: '/Images/FouziaAnguel.png',
+        biography: 'https://www.ensia.edu.dz/biography/fouzia.anguel/',
         gender: 'female',
         hours: 'TBA'
     },
@@ -23,6 +25,7 @@ const team = [
         fullName: 'Sami Belkacem',
         email: 'sami.belkacem@ensia.edu.dz',
         image: '/Images/SamiBelkacem.png',
+        biography: 'https://www.ensia.edu.dz/biography/sami.belkacem/',
         gender: 'male',
         hours: 'TBA'
     },
@@ -32,6 +35,7 @@ const team = [
         fullName: 'Asma Aouichat',
         email: 'asma.aouichat@ensia.edu.dz',
         image: '/Images/Asma-Aouichat.jpeg',
+        biography: 'https://www.ensia.edu.dz/fr/faculty-members/',
         gender: 'female',
         hours: 'TBA'
     },
@@ -42,6 +46,7 @@ const team = [
         email: 'saad.fehis@ensia.edu.dz',
         gender: 'male',
         image: '',
+        biography: 'https://www.ensia.edu.dz/fr/faculty-members/',
         hours: 'TBA'
     },
     {
@@ -49,6 +54,7 @@ const team = [
         title: 'Dr',
         fullName: 'Yacine Sahraoui',  
         email: 'yacine.sahraoui@ensia.edu.dz',
+        biography: 'https://www.ensia.edu.dz/fr/faculty-members/',
         gender: 'male',
         image: '',
         hours: 'TBA'
@@ -58,6 +64,7 @@ const team = [
         title: 'Dr',
         fullName: 'Farah Ibelaiden',  
         email: 'farah.ibelaiden@ensia.edu.dz',
+        biography: 'https://www.ensia.edu.dz/fr/faculty-members/',
         gender: 'female',
         image: '',
         hours: 'TBA'
@@ -67,6 +74,7 @@ const team = [
         title: 'Dr',
         fullName: 'Aicha Boutorh',  
         email: 'aicha.boutorh@ensia.edu.dz',
+        biography: 'https://www.ensia.edu.dz/fr/faculty-members/',
         gender: 'female',
         image: '',
         hours: 'TBA'

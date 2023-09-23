@@ -6,6 +6,7 @@
     export let email: string;
     export let hours: string;
     export let gender: string;
+    export let biography: string;
 </script>
 
 
@@ -41,7 +42,7 @@
             {/if}
         {/if}
         <div class="space-y-1 font-medium dark:text-white">
-            <a href="https://www.ensia.edu.dz/fr/faculty-members/" target="_blank">
+            <a href={biography} target="_blank">
                 <div 
                     class="
                         hover:text-blue-800
