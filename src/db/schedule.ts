@@ -2,28 +2,28 @@ const schedule = [
     {
         id: 1,
         week: 1,
-        date: 'Feb 05, Feb 09',
-        topic: 'Introduction',
+        date: 'Sept 24, Sept 28',
+        topic: 'Algorithmic Thinking and Problem Solving: Introduction',
         topicDownload: 'PDF',
-        chapters: 'Chapter/s 1, 2',
+        chapters: 'Chapter 1',
         courseWork: 'lab sheet 1',
         tutorials: 'tuts 1'
     },
     {
         id: 2,
         week: 2,
-        date: 'Feb 12 , Feb 16',
-        topic: 'Control Structures',
+        date: 'Oct 1 , Oct 5',
+        topic: 'Algorithmic Thinking and Problem Solving: Algorithm Formalism ',
         topicDownload: 'PDF',
-        chapters: 'Chapter/s 4, 5',
+        chapters: 'Chapter 1',
         courseWork: 'lab sheet 2',
         tutorials: 'tuts 2'
     },
     {
         id: 3,
         week: 3,
-        date: 'Feb 19 , Feb 23',
-        topic: 'Procedure, Function & Recursion',
+        date: 'Oct 8 , Oct 12',
+        topic: 'Control Structures',
         topicDownload: 'PDF',
         chapters: 'Chapter/s 6',
         courseWork: 'lab sheet 3',
@@ -32,7 +32,7 @@ const schedule = [
     {
         id: 4,
         week: 4,
-        date: 'Feb 26, Mar 02',
+        date: 'Oct 15 , Oct 19',
         topic: 'Procedure, Function & Recursion',
         topicDownload: 'PDF',
         exam: 'Lab Test 01',
@@ -43,7 +43,7 @@ const schedule = [
     {
         id: 5,
         week: 5,
-        date: 'Mar 05, Mar 09',
+        date: 'Oct 22 , Oct 26',
         topic: 'Pointers, Dynamic memory, Struct, Linked-list & CStrings',
         topicDownload: 'PDF',
         exam: 'Mid-term Exam',
@@ -54,7 +54,7 @@ const schedule = [
     {
         id: 6,
         week: 6,
-        date: 'Mar 12, Mar 16',
+        date: 'Oct 29 , Nov 3',
         topic: 'String and Bitwise',
         topicDownload: 'PDF',
         exam: 'Lecture Test',
@@ -65,7 +65,7 @@ const schedule = [
     {
         id: 7,
         week: 7,
-        date: 'Mar 19, Mar 23',
+        date: 'Nov 5 , Nov 9',
         topic: 'Streams and Files',
         topicDownload: 'PDF',
         chapters: 'Chapter/s 10, 11',
@@ -75,7 +75,7 @@ const schedule = [
     {
         id: 8,
         week: 8,
-        date: 'Mar 05, Mar 09',
+        date: 'Nov 12 , Nov 16',
         topic: 'Pointers, Dynamic memory, Struct, Linked-list & CStrings ',
         topicDownload: 'PDF',
         chapters: '8',
@@ -85,7 +85,7 @@ const schedule = [
     {
         id: 9,
         week: 9,
-        date: 'Mar 05, Mar 09',
+        date: 'Nov 19 , Nov 23',
         topic: 'Pointers, Dynamic memory, Struct, Linked-list & CStrings ',
         topicDownload: 'PDF',
         chapters: '8',
@@ -95,7 +95,7 @@ const schedule = [
     {
         id: 10,
         week: 10,
-        date: 'Mar 05, Mar 09',
+        date: 'Nov 26 , Nov 30',
         topic: 'Pointers, Dynamic memory, Struct, Linked-list & CStrings ',
         topicDownload: 'PDF',
         chapters: '8',
@@ -105,7 +105,7 @@ const schedule = [
     {
         id: 11,
         week: 11,
-        date: 'Mar 05, Mar 09',
+        date: 'Dec 03, Dec 07',
         topic: 'Pointers, Dynamic memory, Struct, Linked-list & CStrings ',
         topicDownload: 'PDF',
         chapters: '8',
@@ -115,7 +115,7 @@ const schedule = [
     {
         id: 12,
         week: 12,
-        date: 'Mar 05, Mar 09',
+        date: 'Dec 10, Dec 14',
         topic: 'Pointers, Dynamic memory, Struct, Linked-list & CStrings ',
         topicDownload: 'PDF',
         chapters: '8',
@@ -125,7 +125,7 @@ const schedule = [
     {
         id: 13,
         week: 13,
-        date: 'Mar 05, Mar 09',
+        date: 'Dec 17, Dec 21',
         topic: 'Pointers, Dynamic memory, Struct, Linked-list & CStrings ',
         topicDownload: 'PDF',
         chapters: '8',
@@ -135,7 +135,17 @@ const schedule = [
     {
         id: 14,
         week: 14,
-        date: 'Mar 05, Mar 09',
+        date: 'Dec 24, Dec 28',
+        topic: 'Pointers, Dynamic memory, Struct, Linked-list & CStrings ',
+        topicDownload: 'PDF',
+        chapters: '8',
+        courseWork: 'lab sheet 5',
+        tutorials: 'tuts 5'
+    },
+    {
+        id: 15,
+        week: 15,
+        date: 'Dec 31, Jan 04',
         topic: 'Pointers, Dynamic memory, Struct, Linked-list & CStrings ',
         topicDownload: 'PDF',
         chapters: '8',
