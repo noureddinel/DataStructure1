@@ -10,17 +10,17 @@
       <div class="mt-6">
           <Tabs 
             defaultClass='flex space-x-3 overflow-scroll scrollbar scrollbar-none'
-            contentClass="p-4 bg-gray-200 dark:bg-gray-800" 
+            contentClass="p-4 bg-gray-100 dark:bg-gray-800 rounded-b-lg" 
             inactiveClasses="p-4 text-gray-500 rounded-t-lg hover:text-gray-600 bg-gray-50 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
-            activeClasses="p-4 text-orange-400 bg-gray-200 rounded-t-lg dark:bg-gray-800 dark:text-primary-500 "
+            activeClasses="p-4 text-orange-400 bg-gray-100 rounded-t-lg dark:bg-gray-800 dark:text-primary-500 "
             divider={false}
           > 
               {#each schedule as item}
                   <TabItem open title={`#Week ${item.week}`}>
                       <div>
-                          <div class="px-4 sm:px-0">
-                            <h3 class="text-base font-semibold leading-7 text-gray-900">Dates:</h3>
-                            <p class="mt-1 max-w-2xl text-sm leading-6 text-gray-500">{item.date}</p>
+                          <div class="px-4 sm:px-0  bg-white rounded-lg py-4">
+                            <h3 class="text-base font-semibold leading-7 text-gray-900 pl-2">Dates:</h3>
+                            <p class="mt-1 max-w-2xl text-sm leading-6 text-gray-500 pl-2">{item.date}</p>
                           </div>
                           {#if item.exam}
                               <div class="py-2 mt-6 rounded-lg bg-blue-400 text-center text-white" >
@@ -29,27 +29,27 @@
                           {/if}
                           <div class="mt-6 border-t border-gray-100">
                             <dl class="divide-y divide-gray-100">
-                              <div class="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
-                                <dt class="text-sm font-semibold leading-6 text-gray-900">Topic</dt>
+                              <div class="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0  bg-white rounded-lg mb-4">
+                                <dt class="md:text-sm font-semibold leading-6 text-gray-900 pl-2">Topic</dt>
                                 <dd class="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">{item.topic}</dd>
                           </div>
-                          <div class="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
-                                <dt class="text-sm eading-6 text-gray-900 font-semibold">Corresponding chapters in Textbook</dt>
+                          <div class="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0  bg-white rounded-lg mb-4">
+                                <dt class="md:text-sm eading-6 text-gray-900 font-semibold pl-2">Corresponding chapters in Textbook</dt>
                                 <dd class="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">{item.chapters}</dd>
                           </div>
-                              <div class="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
-                                <dt class="text-sm font-semibold leading-6 text-gray-900">Coursework (Labs)</dt>
+                              <div class="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0  bg-white rounded-lg mb-4">
+                                <dt class="md:text-sm font-semibold leading-6 text-gray-900 pl-2">Coursework (Labs)</dt>
                                 <dd class="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
                                   <a href="#" class="text-blue-600">{item.courseWork}</a>
                               </dd>
                               </div>
-                              <div class="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
-                                <dt class="text-sm font-semibold leading-6 text-gray-900">Tutorials</dt>
+                              <div class="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0 bg-white rounded-lg mb-4">
+                                <dt class="md:text-sm font-semibold leading-6 text-gray-900 border-dashed pl-2">Tutorials</dt>
                                 <dd class="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
                                   <a href="#" class="text-blue-600">{item.tutorials}</a></dd>
                               </div>
                               <div class="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
-                                <dt class="text-sm font-semibold leading-6 text-gray-900">Attachments</dt>
+                                <dt class="md:text-sm font-semibold leading-6 text-gray-900">Attachments</dt>
                                 <dd class="mt-2 text-sm text-gray-900 sm:col-span-2 sm:mt-0">
                                   <ul role="list" class="divide-y divide-gray-100 rounded-md border border-gray-200">
                                     <li class="flex items-center justify-between py-4 pl-4 pr-5 text-sm leading-6">
