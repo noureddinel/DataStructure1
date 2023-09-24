@@ -7,11 +7,11 @@
 </script>
 
 
-{#if $page.data.session}
+<!-- {#if $page.data.session} -->
 	<Sidebar>
 		<slot />
 	</Sidebar>
-{:else}
+<!-- {:else}
 	<div class="text-center h-screen flex justify-center items-center bg-white dark:bg-gray-900 bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern.svg')] dark:bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern-dark.svg')]">
 		<div>
 			<Title>ENSIA course</Title>
@@ -24,5 +24,5 @@
 			</button>
 		</div>
 	</div>
-{/if}
+{/if} -->
 
