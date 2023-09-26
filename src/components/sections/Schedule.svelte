@@ -15,8 +15,13 @@
             activeClasses="p-4 text-blue-600 bg-blue-100 rounded-t-lg dark:bg-blue-800 dark:text-primary-500 "
             divider={false}
           > 
-              {#each schedule as item}
-                  <TabItem open title={`#Week ${item.week}`}>
+              {#each schedule as item, index}
+                  <TabItem title={`#Week ${item.week}`}>
+                      {#if index === 1}
+                        <script>
+                          $: $tabIndex = index;
+                        </script>
+                      {/if}
                       <div>
                           <div class="px-1 sm:px-4  bg-white rounded-lg py-0.5" >
                             <h3 class="text-base font-semibold leading-7 text-yellow-600 pl-1"> {item.date}</h3>
