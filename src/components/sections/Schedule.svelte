@@ -25,7 +25,6 @@
                       <div>
                           <div class="px-1 sm:px-4  bg-white rounded-lg py-0.5" >
                             <h3 class="text-base font-semibold leading-7 text-yellow-600 pl-1"> {item.date}</h3>
-                            
                           </div>
                           
                           
@@ -34,41 +33,43 @@
                               {#if item.id != 8}
                               <div class="mt-4">
                               
-                              <table class="w-full">
-                                <thead>
-                                  <tr>
-                                    <th class="px-4 py-2 text-left">Topic</th>
-                                    <th class="px-4 py-2 text-left">Slides</th>
-                                    <th class="px-4 py-2 text-left">Tutorial</th>
-                                    <th class="px-4 py-2 text-left">Lab</th>
-                                  </tr>
-                                </thead>
-                                <tbody>
-                                  <tr>
-                                    <td class="px-6 py-2 font-semibold"> {item.topic} 
-                                      <ul style=" padding-left: 35px;">
-                                        {#if item.sub_topic}
-                                          {#each item.sub_topic.split(';') as subTopic}
-                                            <li style="font-weight: normal; padding-left: 2px; list-style-type: disc; " class="px-1 py-0.1  ">{subTopic}</li>
-                                          {/each}
+                              <div class="overflow-x-scroll">
+                                <table class="w-full">
+                                  <thead>
+                                    <tr>
+                                      <th class="px-4 py-2 text-left">Topic</th>
+                                      <th class="px-4 py-2 text-left">Slides</th>
+                                      <th class="px-4 py-2 text-left">Tutorial</th>
+                                      <th class="px-4 py-2 text-left">Lab</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <td class="px-6 py-2 font-semibold"> {item.topic} 
+                                        <ul style=" padding-left: 35px;">
+                                          {#if item.sub_topic}
+                                            {#each item.sub_topic.split(';') as subTopic}
+                                              <li style="font-weight: normal; padding-left: 2px; list-style-type: disc; " class="px-1 py-0.1  ">{subTopic}</li>
+                                            {/each}
+                                          {/if}
+                                        </ul>
+                                      </td>
+                                      <td class="px-4 py-2">
+                                        {#if item.lecture0}
+                                            <p> <a href="{item.lecture0}" class="text-blue-600">lecture0</a> </p>
                                         {/if}
-                                      </ul>
-                                    </td>
-                                    <td class="px-4 py-2">
-                                      {#if item.lecture0}
-                                          <p> <a href="{item.lecture0}" class="text-blue-600">lecture0</a> </p>
-                                      {/if}
-                                      <a href="{item.lecture}" class="text-blue-600">lecture{item.id}</a></td>
-                                    <td class="px-4 py-2"> <a href="{item.tutorial}" class="text-blue-600">tutorial{item.id}</a></td>
-                                    <td class="px-4 py-2"> <a href="{item.lab}" class="text-blue-600">lab_sheet{item.id}</a>
-                                    {#if item.lab_sup}
-                                          <p> <a href="{item.lab_sup}" class="text-blue-600">lab_sup{item.id}</a> </p>
-                                      {/if}
-                                    </td>
-                                  </tr>
-                                
-                                </tbody>
-                              </table>
+                                        <a href="{item.lecture}" class="text-blue-600">lecture{item.id}</a></td>
+                                      <td class="px-4 py-2"> <a href="{item.tutorial}" class="text-blue-600">tutorial{item.id}</a></td>
+                                      <td class="px-4 py-2"> <a href="{item.lab}" class="text-blue-600">lab_sheet{item.id}</a>
+                                      {#if item.lab_sup}
+                                            <p> <a href="{item.lab_sup}" class="text-blue-600">lab_sup{item.id}</a> </p>
+                                        {/if}
+                                      </td>
+                                    </tr>
+                                  
+                                  </tbody>
+                                </table>
+                              </div>
                             </div>
                           {/if}
                           {#if item.exam}
