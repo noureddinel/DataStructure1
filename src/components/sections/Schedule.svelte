@@ -7,67 +7,76 @@
 
 <Section id='#schedule'>
     <Title>Schedule</Title>
-      <div class="mt-6">
+      <div class="mt-1">
           <Tabs 
             defaultClass='flex space-x-3 overflow-scroll scrollbar scrollbar-none'
-            contentClass="p-4 bg-gray-100 dark:bg-gray-800 rounded-b-lg" 
-            inactiveClasses="p-4 text-gray-500 rounded-t-lg hover:text-gray-600 bg-gray-50 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
-            activeClasses="p-4 text-orange-400 bg-gray-100 rounded-t-lg dark:bg-gray-800 dark:text-primary-500 "
+            contentClass="p-4 bg-blue-100 dark:bg-blue-800 rounded-b-lg" 
+            inactiveClasses="p-4 text-gray-500 rounded-t-lg hover:text-blue-600 bg-gray-50 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
+            activeClasses="p-4 text-blue-600 bg-blue-100 rounded-t-lg dark:bg-blue-800 dark:text-primary-500 "
             divider={false}
           > 
               {#each schedule as item}
                   <TabItem open title={`#Week ${item.week}`}>
                       <div>
-                          <div class="px-4 sm:px-0  bg-white rounded-lg py-4">
-                            <h3 class="text-base font-semibold leading-7 text-gray-900 pl-2">Dates:</h3>
-                            <p class="mt-1 max-w-2xl text-sm leading-6 text-gray-500 pl-2">{item.date}</p>
+                          <div class="px-1 sm:px-4  bg-white rounded-lg py-0.5" >
+                            <h3 class="text-base font-semibold leading-7 text-yellow-600 pl-1"> {item.date}</h3>
+                            
                           </div>
+                          
+                          
+                            <div class="mt-6 border-t border-blue-100">
+                              <dl class="divide-y divide-blue-300">
+                              {#if item.id != 8}
+                              <div class="mt-4">
+                              
+                              <table class="w-full">
+                                <thead>
+                                  <tr>
+                                    <th class="px-4 py-2 text-left">Topic</th>
+                                    <th class="px-4 py-2 text-left">Slides</th>
+                                    <th class="px-4 py-2 text-left">Tutorial</th>
+                                    <th class="px-4 py-2 text-left">Lab</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td class="px-6 py-2 font-semibold"> {item.topic} 
+                                      <ul style=" padding-left: 35px;">
+                                        {#if item.sub_topic}
+                                          {#each item.sub_topic.split(';') as subTopic}
+                                            <li style="font-weight: normal; padding-left: 2px; list-style-type: disc; " class="px-1 py-0.1  ">{subTopic}</li>
+                                          {/each}
+                                        {/if}
+                                      </ul>
+                                    </td>
+                                    <td class="px-4 py-2">
+                                      {#if item.lecture0}
+                                          <p> <a href="{item.lecture0}" class="text-blue-600">lecture0</a> </p>
+                                      {/if}
+                                      <a href="{item.lecture}" class="text-blue-600">lecture{item.id}</a></td>
+                                    <td class="px-4 py-2"> <a href="{item.tutorial}" class="text-blue-600">tutorial{item.id}</a></td>
+                                    <td class="px-4 py-2"> <a href="{item.lab}" class="text-blue-600">lab_sheet{item.id}</a>
+                                    {#if item.lab_sup}
+                                          <p> <a href="{item.lab_sup}" class="text-blue-600">lab_sup{item.id}</a> </p>
+                                      {/if}
+                                    </td>
+                                  </tr>
+                                
+                                </tbody>
+                              </table>
+                            </div>
+                          {/if}
                           {#if item.exam}
-                              <div class="py-2 mt-6 rounded-lg bg-blue-400 text-center text-white" >
+                              <div class="py-0.5 mt-6 text-center " style="color: red;">
                                   <h3 class="text-xl font-semibold">{item.exam}</h3>    
                               </div>
                           {/if}
-                          <div class="mt-6 border-t border-gray-100">
-                            <dl class="divide-y divide-gray-100">
-                              <div class="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0  bg-white rounded-lg mb-4">
-                                <dt class="md:text-sm font-semibold leading-6 text-gray-900 pl-2">Topic</dt>
-                                <dd class="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">{item.topic}</dd>
-                          </div>
-                          <div class="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0  bg-white rounded-lg mb-4">
-                                <dt class="md:text-sm eading-6 text-gray-900 font-semibold pl-2">Corresponding chapters in Textbook</dt>
-                                <dd class="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">{item.chapters}</dd>
-                          </div>
-                              <div class="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0  bg-white rounded-lg mb-4">
-                                <dt class="md:text-sm font-semibold leading-6 text-gray-900 pl-2">Coursework (Labs)</dt>
-                                <dd class="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
-                                  <a href="#" class="text-blue-600">{item.courseWork}</a>
-                              </dd>
+                          {#if item.test}
+                              <div class="py-2 mt-6   text-center" style="color: red;">
+                                  <h3 class="text-xl font-semibold">{item.test}</h3>    
                               </div>
-                              <div class="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0 bg-white rounded-lg mb-4">
-                                <dt class="md:text-sm font-semibold leading-6 text-gray-900 border-dashed pl-2">Tutorials</dt>
-                                <dd class="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
-                                  <a href="#" class="text-blue-600">{item.tutorials}</a></dd>
-                              </div>
-                              <div class="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
-                                <dt class="md:text-sm font-semibold leading-6 text-gray-900">Attachments</dt>
-                                <dd class="mt-2 text-sm text-gray-900 sm:col-span-2 sm:mt-0">
-                                  <ul role="list" class="divide-y divide-gray-100 rounded-md border border-gray-200">
-                                    <li class="flex items-center justify-between py-4 pl-4 pr-5 text-sm leading-6">
-                                      <div class="flex w-0 flex-1 items-center">
-                                        <svg class="h-5 w-5 flex-shrink-0 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                          <path fill-rule="evenodd" d="M15.621 4.379a3 3 0 00-4.242 0l-7 7a3 3 0 004.241 4.243h.001l.497-.5a.75.75 0 011.064 1.057l-.498.501-.002.002a4.5 4.5 0 01-6.364-6.364l7-7a4.5 4.5 0 016.368 6.36l-3.455 3.553A2.625 2.625 0 119.52 9.52l3.45-3.451a.75.75 0 111.061 1.06l-3.45 3.451a1.125 1.125 0 001.587 1.595l3.454-3.553a3 3 0 000-4.242z" clip-rule="evenodd" />
-                                        </svg>
-                                        <div class="ml-4 flex min-w-0 flex-1 gap-2">
-                                          <span class="truncate font-medium">Topic attachement download.{item.topicDownload}</span>
-                                          <span class="flex-shrink-0 text-gray-400"></span>
-                                        </div>
-                                      </div>
-                                      <div class="ml-4 flex-shrink-0">
-                                        <a href="#" class="font-medium text-indigo-600 hover:text-indigo-500">Download</a>
-                                      </div>
-                                    </li>
-                                </dd>
-                              </div>
+                          {/if}
+                              
                             </dl>
                           </div>
                         </div>
