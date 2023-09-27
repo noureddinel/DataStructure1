@@ -8,9 +8,10 @@
 	import Textbooks from "../components/sections/Textbooks.svelte";
 </script>
 
-<div>
-    <img src='/Logos/cropped-logo.png' alt="Logo ENSIA" class="w-60 mx-auto md:m-0"/>
-</div>
+<!-- <div>
+    <img id="logo" src='/Logos/cropped-logo.png' alt="Logo ENSIA" class="w-60 mx-auto md:m-0"/>
+</div> -->
+
     
 <!-- About section -->
 <About />

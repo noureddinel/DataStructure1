@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { navLinks } from "../../db";
+    import { navLinks, type } from "../../db";
     import { handleScroll } from "$lib";
     import { signOut } from "@auth/sveltekit/client";
 </script>
@@ -69,6 +69,9 @@
  </aside>
  
  <div class="p-4 md:px-14 md:py-6 sm:ml-64">
+   <nav class="h-20 md:h-16 w-full fixed top-0 md:p-2 pt-4 bg-white overflow-hidden z-10">
+      <img id="logo" src='/Logos/cropped-logo.png' alt="Logo ENSIA" class="w-60 mx-auto md:m-0"/>
+    </nav>
    <slot></slot>
  </div>
  
