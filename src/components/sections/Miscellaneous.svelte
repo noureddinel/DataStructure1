@@ -36,17 +36,6 @@ import Title from "../typography/Title.svelte";
         {/each}
     </ul>
 
-    <!-- VsCode IDE -->
-    <h2 class="mt-6 text-lg font-semibold text-gray-900 dark:text-white">Codeblock IDE:</h2>
-    <ul class="mt-2 max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
-        {#each vsCodeIDE as vs }
-            <a href={vs.link} class="text-blue-500" target="_blank">
-                <li>
-                    {vs.title}
-                </li>   
-            </a>
-        {/each}
-    </ul>
 
     <!-- VsCode IDE -->
     <h2 class="mt-6 text-lg font-semibold text-gray-900 dark:text-white">Vscode IDE:</h2>

@@ -1,7 +1,7 @@
 const courseAssessment = [
     {
         id: 1,
-        assessment: 'Attending lectures and recitations'
+        assessment: 'Attending lectures'
     },
     {
         id: 2,
