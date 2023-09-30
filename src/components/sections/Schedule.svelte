@@ -59,10 +59,11 @@
                                             <p> <a href="{item.lecture0}" class="text-blue-600">lecture0</a> </p>
                                         {/if}
                                         <a href="{item.lecture}" class="text-blue-600">lecture{item.id}</a></td>
-                                      <td class="px-4 py-2"> <a href="{item.tutorial}" class="text-blue-600">tutorial{item.id}</a></td>
+                                      <td class="px-4 py-2"> <a href="{item.tutorial}" class="text-blue-600">tutorial{item.id}</a>
                                       {#if item.tutorial_sup}
                                             <p> <a href="{item.tutorial_sup}" class="text-blue-600">tutorial_sup{item.id}</a> </p>
                                         {/if}
+                                      </td>
                                       <td class="px-4 py-2"> <a href="{item.lab}" class="text-blue-600">lab_sheet{item.id}</a>
                                       {#if item.lab_sup}
                                             <p> <a href="{item.lab_sup}" class="text-blue-600">lab_sup{item.id}</a> </p>
