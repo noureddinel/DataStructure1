@@ -18,7 +18,7 @@ const schedule = [
         topic: 'Algorithmic Thinking and Problem Solving: Algorithm Formalism ',
         sub_topic: 'Algorithm structure;Flowchart;Declaration;Body',
         topicDownload: 'PDF',
-        lecture: 'comming soon...',
+        //lecture: 'comming soon...',
         lab: 'https://drive.google.com/file/d/1Swqya_k1-GGG54IQWIWwMVO8gkTUP4Q6/view?usp=drive_link',
         tutorial_sup: 'https://drive.google.com/file/d/13i4AAOdqKkKiHb8oGKUjh7We9m9-z6UT/view?usp=drive_link',
         tutorial: 'https://drive.google.com/file/d/1OsvBgmJR01P4QuXKXAQVcsNnUpDwY4bz/view?usp=drive_link'
