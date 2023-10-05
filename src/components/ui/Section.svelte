@@ -2,6 +2,6 @@
     export let id: string = '';
 </script>
 
-<section id={id} class="my-12">
+<section id={id} class="my-16">
     <slot />
 </section>
