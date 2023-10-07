@@ -30,9 +30,9 @@ const schedule = [
         topic: 'Control Structures',
         sub_topic: 'Conditional Statements;Loops (while, for, do..while)',
         topicDownload: 'PDF',
-        chapters: 'Chapter/s 6',
-        courseWork: 'lab sheet 3',
-        tutorials: 'tuts 3'
+        lecture: 'https://drive.google.com/file/d/1uizCa69rLIEu1mpTwfFRSmR833vJsaSp/view?usp=drive_link',
+        lab: 'https://drive.google.com/file/d/14L3ajMzN_U-hfltXMlbAuxsaaI8zZc6C/view?usp=drive_link',
+        tutorial: 'https://drive.google.com/file/d/1lqcayQ18BjITtSqUU5murS1yNJpee4P-/view?usp=drive_link'
     },
     {
         id: 4,
