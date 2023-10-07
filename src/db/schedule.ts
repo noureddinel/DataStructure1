@@ -31,7 +31,7 @@ const schedule = [
         sub_topic: 'Conditional Statements;Loops (while, for, do..while)',
         topicDownload: 'PDF',
         lab: 'https://drive.google.com/file/d/14L3ajMzN_U-hfltXMlbAuxsaaI8zZc6C/view?usp=drive_link',
-        tutorial: 'https://drive.google.com/file/d/1lqcayQ18BjITtSqUU5murS1yNJpee4P-/view?usp=drive_link'
+        tutorial: 'https://drive.google.com/file/d/1aEk6n6c8T2G_6NRmD_nTI4qrtZjvgUhF/view?usp=drive_link'
     },
     {
         id: 4,
