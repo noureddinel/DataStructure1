@@ -30,7 +30,7 @@ const schedule = [
         topic: 'Control Structures',
         sub_topic: 'Conditional Statements;Loops (while, for, do..while)',
         topicDownload: 'PDF',
-        lecture: 'https://drive.google.com/file/d/1hT2mQGjClKA5hTzlP2AlszgOUQ2dPs0d/view?usp=drive_link',
+        lecture: 'https://drive.google.com/file/d/17_pZ_hfevmEl709FhNus6NKAF_a6FUal/view?usp=drive_link',
         lab: 'https://drive.google.com/file/d/14L3ajMzN_U-hfltXMlbAuxsaaI8zZc6C/view?usp=drive_link',
         tutorial: 'https://drive.google.com/file/d/1aEk6n6c8T2G_6NRmD_nTI4qrtZjvgUhF/view?usp=drive_link'
     },
