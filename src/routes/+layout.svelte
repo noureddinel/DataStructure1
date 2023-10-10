@@ -4,13 +4,35 @@
   	import { page } from "$app/stores"
 	import Sidebar from '../components/layouts/Sidebar.svelte';
 	import Title from '../components/typography/Title.svelte';
+	import Loader from '../components/layouts/Loader.svelte';
+	import { onMount } from 'svelte';
+
+	// Loading state
+	let loading = true;
+
+	// Await font loading
+	async function areFontsReady() {
+	  await (document).fonts.ready
+	  loading = false;
+  	}
+
+	onMount(() => {
+		areFontsReady()
+	});
+	
+
 </script>
 
 
 <!-- {#if $page.data.session} -->
-	<Sidebar>
+{#if loading}
+	<Loader />
+{:else}
+	<Sidebar >
 		<slot />
 	</Sidebar>
+{/if}
+
 <!-- {:else}
 	<div class="text-center h-screen flex justify-center items-center bg-white dark:bg-gray-900 bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern.svg')] dark:bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern-dark.svg')]">
 		<div>

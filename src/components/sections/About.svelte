@@ -1,4 +1,5 @@
 <script>
+	import { fade } from "svelte/transition";
     import Section from "../../components/ui/Section.svelte";
     import { lectures } from "../../db";
 	import Paragraph from "../typography/Paragraph.svelte";
@@ -28,7 +29,7 @@
         "
     >
         <!-- Section Title -->
-        <div class="">
+        <div>
             <h1 
                 class="
                     border-b-8 

@@ -2,6 +2,24 @@
     import { navLinks, type } from "../../db";
     import { handleScroll } from "$lib";
     import { signOut } from "@auth/sveltekit/client";
+	import { onMount } from "svelte";
+
+    onMount(() => {
+      const navbar = document.querySelector('#navbar');
+      const logo = document.querySelector('#logo');
+      
+      window.addEventListener('scroll', function(){
+        let scrollVal = this.window.scrollY;
+        if(scrollVal > 130) {
+           navbar?.classList.add('shadow-lg');
+           logo?.classList.replace('sm\:w-60', 'sm\:w-32')
+        } else {
+            navbar?.classList.remove('shadow-lg');
+        }
+
+      });
+    })
+
 </script>
 
 
@@ -64,7 +82,7 @@
  </aside>
  
  <!-- Fix top navbar -->
- <nav class="flex sm:block sm:ml-64 h-20 md:h-20 w-full fixed top-0 md:p-4 pt-4 bg-white overflow-hidden z-10">
+ <nav id="navbar" class="flex transition-all items-center sm:block sm:ml-64 h-20 md:h-20 w-full fixed top-0 md:p-4 pt-4 bg-white overflow-hidden z-10">
     <img id="logo" src='/Logos/cropped-logo.png' alt="Logo ENSIA" class="sm:w-60 mx-auto md:m-0 w-30 h-12"/>
   </nav>
  <div class="p-4 md:px-14 md:py-6 sm:ml-64">

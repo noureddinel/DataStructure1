@@ -3,6 +3,13 @@
 	  import Title from "../typography/Title.svelte";
 	  import { schedule } from "../../db";
     import { Tabs, TabItem } from 'flowbite-svelte';
+
+
+    if(typeof window !== 'undefined'){
+      const tabs = document.getElementsByClassName('scrollbar-none');
+      console.log(tabs);
+    } 
+
 </script>
 
 <Section id='#schedule'>
@@ -16,7 +23,7 @@
             divider={false}
           > 
               {#each schedule as item, index}
-                  <TabItem title={`#Week ${item.week}`}>
+                  <TabItem open title={`#Week ${item.week}`}>
                       {#if index === 1}
                         <script>
                           $: $tabIndex = index;
@@ -95,10 +102,3 @@
         </div>
 </Section>
 
-
-<style>
-.hide-scrollbar{
-  height: 0;
-  background-color: transparent;
-}
-</style>
