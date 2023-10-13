@@ -41,7 +41,6 @@ const schedule = [
         topic: 'Modular Programming: Introduction',
         sub_topic: 'Functions and Modular Programming',
         topicDownload: 'PDF',
-        test: 'Tutorial Test',
         chapters: 'Chapter/s 7',
         courseWork: 'lab sheet 4',
         tutorials: 'tuts 4'
