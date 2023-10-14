@@ -42,7 +42,7 @@ const schedule = [
         sub_topic: 'Functions and Modular Programming',
         topicDownload: 'PDF',
         lab: 'https://drive.google.com/file/d/1NjhfmFfN3sx4dTggHORGFFrb4C9WlxZr/view?usp=drive_link',
-        courseWork: 'lab sheet 4',
+        tutorial: 'https://drive.google.com/file/d/1BLz6iW_Sh53FBeF6y5OsLalKI3labMPD/view?usp=drive_link',
         tutorials: 'tuts 4'
     },
     {
