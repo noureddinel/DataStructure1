@@ -1,5 +1,5 @@
 <script>
-	import { blockIDE, cCompliers, cLibraries, externalExcercices, gnuProjects, gnuUtilities, isoCFoundation, vsCodeIDE } from "../../db";
+	import { algorithmic, blockIDE, cCompliers, cLibraries, externalExcercices, gnuProjects, gnuUtilities, isoCFoundation, vsCodeIDE } from "../../db";
 import SubTitle from "../typography/SubTitle.svelte";
 import Title from "../typography/Title.svelte";
 	import Section from "../ui/Section.svelte";
@@ -11,6 +11,18 @@ import Title from "../typography/Title.svelte";
 
 <Section>
     <Title>Miscellaneous</Title>
+
+    <!-- Algorithmic -->
+    <h2 class="mt-6 text-lg font-semibold text-gray-900 dark:text-white">Algorithmic:</h2>
+    <ul class="mt-2 max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
+        {#each algorithmic as a }
+            <a href={a.link} class="text-blue-500" target="_blank">
+                <li>
+                    {a.title}
+                </li>   
+            </a>
+        {/each}
+    </ul>
 
     <!-- C++ Compilers -->
     <h2 class="mt-6 text-lg font-semibold text-gray-900 dark:text-white">C++ compilers:</h2>

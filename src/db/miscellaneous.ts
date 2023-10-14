@@ -1,3 +1,10 @@
+const algorithmic = [
+    {
+        id: 1,
+        title: 'Algorithmic Pseudo-Code Reference Card',
+        link: 'https://drive.google.com/file/d/1porqyEbRncPJQ2lvOYc6r3E8XGuixfVA/view?usp=drive_link'
+    },
+]
 const cCompliers = [
     {
         id: 1,
@@ -151,7 +158,9 @@ const externalExcercices = [
     },
 ]
 
-export { cCompliers,
+export { 
+         algorithmic,
+         cCompliers,
          cLibraries, 
          blockIDE, 
          vsCodeIDE, 

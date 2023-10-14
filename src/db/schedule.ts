@@ -41,7 +41,7 @@ const schedule = [
         topic: 'Modular Programming: Introduction',
         sub_topic: 'Functions and Modular Programming',
         topicDownload: 'PDF',
-        chapters: 'Chapter/s 7',
+        lab: 'https://drive.google.com/file/d/1NjhfmFfN3sx4dTggHORGFFrb4C9WlxZr/view?usp=drive_link',
         courseWork: 'lab sheet 4',
         tutorials: 'tuts 4'
     },
