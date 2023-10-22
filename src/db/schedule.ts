@@ -56,7 +56,7 @@ const schedule = [
         sub_topic: 'Function Declaration, Definition, and Calling',
         topicDownload: 'PDF',
         test: 'Tutorial Test',
-        chapters: 'Chapter/s 8',
+        lecture: 'https://drive.google.com/file/d/1h2yZy6wgKbSgTln16TkT-uiUQ1JZiInm/view?usp=share_link',
         courseWork: 'lab sheet 5',
         tutorials: 'tuts 5'
     },
