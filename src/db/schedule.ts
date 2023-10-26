@@ -64,12 +64,12 @@ const schedule = [
         id: 6,
         week: 6,
         date: 'Oct 29 , Nov 3',
-        topic: 'Static data structure',
+        topic: 'Modular Programming: Procedure',
         sub_topic: '1D array',
         topicDownload: 'PDF',
         chapters: 'Chapter/s 9, 12',
         courseWork: 'lab sheet 6',
-        tutorials: 'tuts 6'
+        lab: 'https://drive.google.com/file/d/1VLfnVhAcB2cWneyva22adSVKtt0vyV-h/view?usp=drive_link'
     },
     {
         id: 7,
