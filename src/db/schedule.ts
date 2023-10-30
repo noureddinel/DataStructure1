@@ -67,7 +67,7 @@ const schedule = [
         topic: 'Modular Programming: Procedure',
         sub_topic: '1D array',
         topicDownload: 'PDF',
-        chapters: 'Chapter/s 9, 12',
+        lecture: 'https://drive.google.com/file/d/1qvHRtnFNR1o4ZGRe91RFmY8dbe4QFHiI/view?usp=drive_link',
         tutorial: 'https://drive.google.com/file/d/1enOpEheUuvY5aaUbXPKkcjNVWarxeK4r/view?usp=drive_link',
         lab: 'https://drive.google.com/file/d/1VLfnVhAcB2cWneyva22adSVKtt0vyV-h/view?usp=drive_link'
     },
