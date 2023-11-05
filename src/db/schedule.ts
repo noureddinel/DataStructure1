@@ -80,7 +80,7 @@ const schedule = [
         topicDownload: 'PDF',
         chapters: 'Chapter/s 10, 11',
         courseWork: 'lab sheet 7',
-        lab: 'https://drive.google.com/file/d/1hPneX5wLSV_NxTsjByY3frdT1tlet0s-/view?usp=drive_link'
+        lab: 'https://drive.google.com/file/d/1Whs1BQZleXwe5AYzhiDjqqd3Ek4i2kwB/view?usp=drive_link'
     },
     {
         id: 8,
