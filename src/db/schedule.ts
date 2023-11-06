@@ -79,7 +79,7 @@ const schedule = [
         sub_topic: '1D array',
         topicDownload: 'PDF',
         chapters: 'Chapter/s 10, 11',
-        courseWork: 'lab sheet 7',
+        lecture: 'https://drive.google.com/file/d/1ds0SVWx9mb3UCDFLwu59oAwNr4PeaQGK/view?usp=drive_link',
         lab: 'https://drive.google.com/file/d/1V6nX1jocx9Fg47ftPgHCa1BC6PaY6oQS/view?usp=drive_link'
     },
     {
