@@ -102,7 +102,7 @@ const schedule = [
         sub_topic: '2D array',
         topicDownload: 'PDF',
         chapters: '8',
-        lab: 'https://drive.google.com/file/d/1BR4WkxJHdClxa3CPuvA_2znq130I8VWM/view?usp=drive_link',
+        lab: 'https://drive.google.com/file/d/1dUIqxOpLvSRGh6FemB0jUfTHJy2MiJti/view?usp=drive_link',
         tutorial: 'https://drive.google.com/file/d/1-27tn0vDI8Wgn6R_BQmOgJpbGGNqxH56/view?usp=drive_link'
     },
     {
