@@ -7,7 +7,7 @@ const team = [
         image: '/Images/NoureddineLasla.png',
         biography: 'https://www.ensia.edu.dz/biography/noureddine.lasla/',
         gender: 'male',
-        hours: 'Wednesday 13:30 - 14:30 <Lab room 7>'
+        hours: 'Wed. 13:30-14:30 @Lab room 7'
     },
     {
         id: 2,
