@@ -109,12 +109,13 @@ const schedule = [
         id: 10,
         week: 10,
         date: 'Nov 26 , Nov 30',
-        topic: 'Static data structure: Advanced Operations on Arrays',
-        sub_topic: 'Sorting Algorithms: Bubble Sort;Searching Algorithms: Linear Search',
+        topic: 'Static data structure: ',
+        sub_topic: 'String and Struct',
+        sub_topicNN: 'Sorting Algorithms: Bubble Sort;Searching Algorithms: Linear Search',
         topicDownload: 'PDF',
         chapters: '8',
         courseWork: 'lab sheet 5',
-        tutorials: 'tuts 5'
+        tutorial: 'https://drive.google.com/file/d/1AD-mSxQstoYGrJN7CExvPaSR2IbZAIfd/view?usp=drive_link'
     },
     {
         id: 11,
