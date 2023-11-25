@@ -114,7 +114,8 @@ const schedule = [
         sub_topicNN: 'Sorting Algorithms: Bubble Sort;Searching Algorithms: Linear Search',
         topicDownload: 'PDF',
         chapters: '8',
-        courseWork: 'lab sheet 5',
+        lab_sup: 'https://drive.google.com/file/d/1aFhRDHBZwPPUwaDWSn0mF7fgJyesaa9a/view?usp=drive_link'
+        lab: 'https://drive.google.com/file/d/1QpCt-KYlAu3qUpjopuJAc0te694F80Y3/view?usp=drive_link',
         tutorial: 'https://drive.google.com/file/d/1AD-mSxQstoYGrJN7CExvPaSR2IbZAIfd/view?usp=drive_link'
     },
     {
