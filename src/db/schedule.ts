@@ -113,7 +113,7 @@ const schedule = [
         sub_topic: 'String and Struct',
         sub_topicNN: 'Sorting Algorithms: Bubble Sort;Searching Algorithms: Linear Search',
         topicDownload: 'PDF',
-        chapters: '8',
+        lecture: 'https://drive.google.com/file/d/1rrLpDqGeoNfwZ3KO2lgf9dgFjIIlA9fS/view?usp=drive_link',
         lab_sup: 'https://drive.google.com/file/d/1aFhRDHBZwPPUwaDWSn0mF7fgJyesaa9a/view?usp=drive_link',
         lab: 'https://drive.google.com/file/d/1QpCt-KYlAu3qUpjopuJAc0te694F80Y3/view?usp=drive_link',
         tutorial: 'https://drive.google.com/file/d/1AD-mSxQstoYGrJN7CExvPaSR2IbZAIfd/view?usp=drive_link'
