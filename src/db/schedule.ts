@@ -127,7 +127,7 @@ const schedule = [
         //test: 'Lab Test',
         topicDownload: 'PDF',
         tutorial: 'https://drive.google.com/file/d/1fdXSVNtfWHWfWCfI8LjXB2gCgTREajs3/view?usp=drive_link',
-        //lab: 'https://drive.google.com/file/d/1jPyJVqw_iGA6rekkWBYkNfhDmkuAx1np/view?usp=drive_link',
+        lab: 'https://drive.google.com/file/d/1jPyJVqw_iGA6rekkWBYkNfhDmkuAx1np/view?usp=drive_link',
         tutorials: 'tuts 5'
     },
     {
