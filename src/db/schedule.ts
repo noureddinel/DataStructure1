@@ -124,7 +124,7 @@ const schedule = [
         date: 'Dec 03, Dec 07',
         topic: 'Static data structure:  ',
         sub_topic: 'Sorting Algorithms: Bubble Sort;Searching Algorithms: Linear Search',
-        test: 'Lab Test',
+        //test: 'Lab Test',
         topicDownload: 'PDF',
         tutorial: 'https://drive.google.com/file/d/1fdXSVNtfWHWfWCfI8LjXB2gCgTREajs3/view?usp=drive_link',
         //lab: 'https://drive.google.com/file/d/1jPyJVqw_iGA6rekkWBYkNfhDmkuAx1np/view?usp=drive_link',
