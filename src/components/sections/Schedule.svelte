@@ -93,8 +93,8 @@
                                   </thead>
                                   <tbody>
                                     <tr>
-                                      <td class="px-4 py-2"> <a href="{item.exam}" class="text-blue-600">lecture{exam}</a></td>
-                                      <td class="px-4 py-2"> <a href="{item.solution}" class="text-blue-600">solution{item.id}</a> </td> 
+                                      <td class="px-4 py-2"> <a href="{item.exam_}" class="text-blue-600">lecture{exam}</a></td>
+                                      <td class="px-4 py-2"> <a href="{item.solution_}" class="text-blue-600">solution{item.id}</a> </td> 
                                     </tr>
                                   </tbody>     
                               </div>
