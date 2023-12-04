@@ -85,8 +85,7 @@
                           {#if item.exam}
                               <div class="py-0.5 mt-6 text-center " style="color: red;">
                                   <h3 class="text-xl font-semibold">{item.exam}</h3> 
-                                  <a href="{item.exam}" class="text-blue-600">exam{item.id}</a></td>
-                                  <a href="{item.solution}" class="text-blue-600">solution{item.id}</a></td>  
+                                    
                               </div>
                           {/if}
                           {#if item.test}
