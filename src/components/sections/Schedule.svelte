@@ -83,7 +83,7 @@
                             </div>
                           {/if}
                           {#if item.exam}
-                              <div class="py-0.5 mt-6 text-center " style="color: red;">
+                              <div class="overflow-x-scroll">>
                                   <h3 class="text-xl font-semibold">{item.exam_type}</h3> 
                                   <thead>
                                     <tr>
