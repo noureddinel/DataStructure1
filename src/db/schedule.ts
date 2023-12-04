@@ -91,8 +91,9 @@ const schedule = [
         topicDownload: 'PDF',
         exam: 'Mid-term Exam',
         chapters: '8',
-        courseWork: 'lab sheet 5',
-        tutorials: 'tuts 5'
+        exam: 'lab sheet 5',
+        solution: 'tuts 5'
+
     },
     {
         id: 9,
