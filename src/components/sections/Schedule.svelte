@@ -84,8 +84,13 @@
                           {/if}
                           {#if item.exam}
                               <div class="py-0.5 mt-6 text-center " style="color: red;">
-                                  <h3 class="text-xl font-semibold">{item.exam}</h3> 
-                                    
+                                  <h3 class="text-xl font-semibold">{item.exam_type}</h3> 
+                                  <thead>
+                                    <tr>
+                                      <th class="px-4 py-2 text-left">Exam</th>
+                                      <th class="px-4 py-2 text-left">Solution</th>
+                                    </tr>
+                                  </thead>     
                               </div>
                           {/if}
                           {#if item.test}

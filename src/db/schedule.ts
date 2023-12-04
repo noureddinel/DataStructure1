@@ -89,7 +89,7 @@ const schedule = [
         topic: '',
         sub_topic: '',
         topicDownload: 'PDF',
-        exam: 'Mid-term Exam',
+        exam_type: 'Mid-term Exam',
         chapters: '8',
         exam: 'lab sheet 5',
         solution: 'tuts 5'
