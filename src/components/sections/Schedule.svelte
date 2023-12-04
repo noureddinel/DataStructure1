@@ -90,7 +90,13 @@
                                       <th class="px-4 py-2 text-left">Exam</th>
                                       <th class="px-4 py-2 text-left">Solution</th>
                                     </tr>
-                                  </thead>     
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <td class="px-4 py-2"> <a href="{item.exam}" class="text-blue-600">lecture{exam}</a></td>
+                                      <td class="px-4 py-2"> <a href="{item.solution}" class="text-blue-600">solution{item.id}</a> </td> 
+                                    </tr>
+                                  </tbody>     
                               </div>
                           {/if}
                           {#if item.test}
