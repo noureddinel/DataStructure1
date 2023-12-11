@@ -140,7 +140,7 @@ const schedule = [
         topicDownload: 'PDF',
         chapters: '8',
         courseWork: 'lab sheet 5',
-        tutorials: 'tuts 5'
+        lecture: 'https://drive.google.com/file/d/1VnOBg4X-LXIX3AqGV_xKSeGTPJgrAm8L/view?usp=drive_link'
     },
     {
         id: 13,
