@@ -129,7 +129,7 @@ const schedule = [
         lecture: 'https://drive.google.com/file/d/1fPiPQHQzizMgmDSt926CYsYcZdK_enik/view?usp=drive_link',
         tutorial: 'https://drive.google.com/file/d/1fdXSVNtfWHWfWCfI8LjXB2gCgTREajs3/view?usp=drive_link',
         lab: 'https://drive.google.com/file/d/1jPyJVqw_iGA6rekkWBYkNfhDmkuAx1np/view?usp=drive_link',
-        sub_lab: 'https://drive.google.com/file/d/1w_HvX4Kk-dQ_8DdiAdv-_DdXIVfpiW07/view?usp=drive_link'
+        lab_sup: 'https://drive.google.com/file/d/1w_HvX4Kk-dQ_8DdiAdv-_DdXIVfpiW07/view?usp=drive_link'
     },
     {
         id: 12,
