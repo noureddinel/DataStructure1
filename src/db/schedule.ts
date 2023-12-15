@@ -139,7 +139,7 @@ const schedule = [
         sub_topic: 'Principles of recursion, Rules and Examples',
         topicDownload: 'PDF',
         chapters: '8',
-        courseWork: 'lab sheet 5',
+        lab: 'lab sheet 5',
         lecture: 'https://drive.google.com/file/d/1VnOBg4X-LXIX3AqGV_xKSeGTPJgrAm8L/view?usp=drive_link'
     },
     {
@@ -149,8 +149,8 @@ const schedule = [
         topic: 'Dynamic Memory Allocation ',
         sub_topic: 'Introduction;Pointer definition;Pointer in C++',
         topicDownload: 'PDF',
-        chapters: '8',
-        courseWork: 'lab sheet 5',
+        lab: 'https://drive.google.com/file/d/13c9mvhsQEf_huUmoT_dvDN-qE5Wssvn3/view?usp=drive_link',
+        courseWork: 'https://drive.google.com/file/d/13c9mvhsQEf_huUmoT_dvDN-qE5Wssvn3/view?usp=drive_link',
         tutorials: 'tuts 5'
     },
     {
