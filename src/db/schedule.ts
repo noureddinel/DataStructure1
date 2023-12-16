@@ -150,7 +150,7 @@ const schedule = [
         sub_topic: 'Introduction;Pointer definition;Pointer in C++',
         topicDownload: 'PDF',
         lab: 'https://drive.google.com/file/d/13c9mvhsQEf_huUmoT_dvDN-qE5Wssvn3/view?usp=drive_link',
-        courseWork: 'https://drive.google.com/file/d/13c9mvhsQEf_huUmoT_dvDN-qE5Wssvn3/view?usp=drive_link',
+        tutorial: 'https://drive.google.com/file/d/161lvsv1SJZ7sU1YaDg9rYiNfLv9uicx7/view?usp=drive_link',
         tutorials: 'tuts 5'
     },
     {
