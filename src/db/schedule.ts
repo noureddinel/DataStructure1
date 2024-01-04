@@ -161,7 +161,7 @@ const schedule = [
         sub_topic: 'Array of pointers;Linked List',
         topicDownload: 'PDF',
         chapters: '8',
-        courseWork: 'lab sheet 5',
+        lab: 'https://drive.google.com/file/d/1m81B5dLbuw-ObeAAtGfCCEBMDtRDgPrz/view?usp=drive_link',
         tutorials: 'tuts 5'
     },
     {
