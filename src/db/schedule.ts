@@ -172,8 +172,8 @@ const schedule = [
         sub_topic: 'File Handling and Streams',
         topicDownload: 'PDF',
         chapters: '8',
-        courseWork: 'lab sheet 5',
-        tutorials: 'tuts 5'
+        lab: 'https://drive.google.com/file/d/1GiiqTiIvsuQJtX8MEafWqDc15LT800SP/view?usp=drive_link',
+        tutorial: 'https://drive.google.com/file/d/1a4uvwbgKfSJGCtIn1RmsKTye3Ekj6zuE/view?usp=drive_link'
     },
 
 ]
